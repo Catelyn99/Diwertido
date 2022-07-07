@@ -13,6 +13,7 @@ body {
     align-items: center;
     font-size: 4em;
     letter-spacing: 6px;
+    text-align: center;
     color: beige;
     box-shadow: inset 0 -26px 24px -12px rgb(255 255 255);
 }
@@ -101,4 +102,18 @@ body {
 .dwd-footer a {
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 768px) {
+    .dwd-banner {
+        min-height: 300px;
+    }
+
+    .dwd-banner > h1 {
+        font-size: 32px;
+    }
+
+    .dwd-info {
+        flex-direction: column;
+    }
 }

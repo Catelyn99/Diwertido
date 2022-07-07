@@ -22,6 +22,16 @@ body {
     margin: 72px 0;
 }
 
+.dwd-description > p {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.dwd-description > p {
+    display: block;
+    margin-bottom: 30px;
+}
+
 .dwd-info {
     display: flex;
     align-items: center;

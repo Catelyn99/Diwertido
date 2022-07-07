@@ -112,6 +112,10 @@ body {
     .dwd-banner > h1 {
         font-size: 32px;
     }
+    
+    .dwd-description > p {
+        max-width: 90%;
+    }
 
     .dwd-info {
         flex-direction: column;

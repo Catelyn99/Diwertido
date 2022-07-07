@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-.dwd-description > p {
+.dwd-description strong {
     display: block;
     margin-bottom: 30px;
 }
